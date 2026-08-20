@@ -1,0 +1,857 @@
+Perfeito. Abaixo está a versão **única, consolidada e extremamente específica** para colar diretamente no **Figma AI (Make Design / First Draft)**. Ela junta o **Design System completo + instruções rígidas de layout + estrutura exata das 6 telas**, para reduzir ao máximo que a IA improvise.
+
+---
+
+# GERAR DESIGN SYSTEM + 6 TELAS COMPLETAS — SHIZEN ORGÂNICOS (ALTA FIDELIDADE)
+
+Crie um **arquivo completo de Figma** para o sistema interno da **Shizen Orgânicos**, contendo:
+
+1. Design System completo
+2. Biblioteca de componentes
+3. Templates reutilizáveis
+4. Protótipo navegável
+5. 6 telas finais em alta fidelidade
+
+O resultado deve parecer um **ERP moderno para gestão de mercado hortifruti orgânico**.
+
+IMPORTANTE:
+
+* NÃO gerar wireframe
+* NÃO gerar landing page
+* NÃO criar e-commerce
+* NÃO usar dark mode
+* NÃO usar gradientes fortes
+* NÃO inventar módulos
+* NÃO alterar estrutura
+* NÃO mudar ordem dos blocos
+* NÃO criar elementos decorativos exagerados
+* NÃO usar aparência futurista
+
+Criar interface:
+
+* limpa
+* sofisticada
+* orgânica
+* corporativa
+* minimalista
+* pronta para desenvolvimento
+
+Todas as telas devem parecer parte do MESMO sistema.
+
+---
+
+# ESTRUTURA DO ARQUIVO
+
+Criar páginas:
+
+```txt
+00 Cover
+
+01 Foundations
+02 Components
+03 Patterns
+04 Templates
+05 Final Screens
+06 Prototype
+```
+
+---
+
+# 01 FOUNDATIONS
+
+## Grid
+
+Desktop:
+
+```txt
+1440 × 1024
+12 colunas
+80 margem
+24 gutter
+```
+
+Grid sempre ativo.
+
+---
+
+## Tipografia
+
+Fonte:
+
+```txt
+Poppins
+```
+
+Fallback:
+
+```txt
+Inter
+```
+
+Escala:
+
+```txt
+Display → 40
+H1 → 32
+H2 → 24
+H3 → 20
+Body → 16
+Caption → 14
+Small → 12
+```
+
+Pesos:
+
+```txt
+700
+600
+400
+```
+
+Line Height:
+
+```txt
+120%
+```
+
+---
+
+## Espaçamentos
+
+Criar tokens:
+
+```txt
+4
+8
+12
+16
+24
+32
+40
+48
+64
+80
+```
+
+---
+
+## Radius
+
+```txt
+XS 8
+SM 12
+MD 16
+LG 24
+XL 32
+```
+
+---
+
+## Sombras
+
+Card:
+
+```txt
+0 4 16 rgba(0,0,0,.06)
+```
+
+Modal:
+
+```txt
+0 12 32 rgba(0,0,0,.12)
+```
+
+---
+
+# PALETA (OBRIGATÓRIA)
+
+## Brand
+
+```txt
+Primary 900 #14391E
+Primary 800 #1F4B28
+Primary 700 #2E6B35
+Primary 600 #3D8442
+Primary 500 #5CA652
+```
+
+## Accent
+
+```txt
+Leaf #89B84A
+Olive #A2C969
+Organic Yellow #D6B43D
+```
+
+## Neutros
+
+```txt
+Surface #F7F6F2
+White #FFFFFF
+Gray 100 #EFEFEA
+Gray 300 #D6D8D3
+Gray 500 #8A918C
+Gray 900 #222C25
+```
+
+## Feedback
+
+```txt
+Success #2F9D57
+Warning #E6A530
+Error #D64B4B
+Info #5A95E8
+```
+
+---
+
+# 02 COMPONENTS
+
+Criar componentes antes das telas.
+
+## Sidebar
+
+Largura:
+
+```txt
+280
+```
+
+Cor:
+
+```txt
+#14391E
+```
+
+Itens:
+
+```txt
+Dashboard
+Vendas
+Financeiro
+Estoque
+Cadastros
+Relatórios
+Configurações
+Usuários
+Sair
+```
+
+Topo:
+
+Logo Shizen.
+
+---
+
+## Header
+
+Altura:
+
+```txt
+88
+```
+
+Direita:
+
+```txt
+Notificações
+Avatar
+Nome
+Perfil
+```
+
+---
+
+## Botões
+
+Altura:
+
+```txt
+48
+```
+
+Radius:
+
+```txt
+12
+```
+
+Estados:
+
+```txt
+Default
+Hover
+Pressed
+Disabled
+```
+
+---
+
+## Inputs
+
+Altura:
+
+```txt
+48
+```
+
+Estados:
+
+```txt
+Default
+Focus
+Error
+Success
+```
+
+---
+
+## Cards KPI
+
+Estrutura:
+
+```txt
+Ícone
+Título
+Valor
+Variação
+```
+
+---
+
+## Tabelas
+
+Header:
+
+```txt
+56
+```
+
+Rows:
+
+```txt
+64
+```
+
+---
+
+## Ícones
+
+Usar:
+
+```txt
+Lucide Outline
+```
+
+Ícones:
+
+```txt
+Home
+Leaf
+DollarSign
+Package
+ShoppingCart
+Users
+Clipboard
+Bell
+Settings
+```
+
+---
+
+# TELA 01 — LOGIN
+
+Frame:
+
+```txt
+1440×1024
+```
+
+Dividir:
+
+```txt
+35% esquerda
+65% direita
+```
+
+## ESQUERDA
+
+Fundo:
+
+```txt
+#14391E
+```
+
+Logo centralizada.
+
+Texto:
+
+```txt
+SHIZEN
+ORGÂNICOS
+```
+
+Branco.
+
+Adicionar imagem grande:
+
+```txt
+cesta hortifruti orgânico
+```
+
+Base inferior.
+
+Texto:
+
+```txt
+Sistema de Gestão para
+Mercado Hortifruti Orgânico
+```
+
+Central.
+
+Adicionar folhas discretas.
+
+---
+
+## DIREITA
+
+Padding:
+
+```txt
+120
+```
+
+Título:
+
+```txt
+Bem-vindo de volta!
+```
+
+Sub:
+
+```txt
+Faça login para acessar o sistema
+```
+
+Inputs:
+
+```txt
+E-mail
+Senha
+```
+
+Senha com olho.
+
+Link:
+
+```txt
+Esqueci minha senha
+```
+
+Botão:
+
+```txt
+Entrar
+```
+
+Rodapé:
+
+```txt
+© Shizen Orgânicos
+```
+
+---
+
+# TELA 02 — ADMINISTRADOR
+
+Título:
+
+```txt
+Bem-vinda, Administradora
+```
+
+Sub:
+
+```txt
+Aqui está o resumo geral da sua loja
+```
+
+Linha KPI:
+
+4 cards.
+
+Card:
+
+```txt
+320×140
+```
+
+Conteúdo:
+
+```txt
+Receita do Dia
+R$2.450
+
+Pedidos Pendentes
+8
+
+Produtos em Alerta
+15
+
+Clientes Ativos
+235
+```
+
+Abaixo:
+
+ESQUERDA:
+
+```txt
+Gráfico linha
+Faturamento Mensal
+```
+
+Altura:
+
+```txt
+340
+```
+
+DIREITA:
+
+```txt
+Donut
+Vendas por Categoria
+```
+
+Rodapé:
+
+Tabela:
+
+```txt
+Data
+Tipo
+Usuário
+Valor
+Status
+```
+
+Botão:
+
+```txt
+Novo Pedido
+```
+
+---
+
+# TELA 03 — FINANCEIRO
+
+Header:
+
+```txt
+Financeiro
+```
+
+Tabs:
+
+```txt
+Resumo
+Receitas
+Despesas
+Fluxo Caixa
+Relatórios
+```
+
+KPIs:
+
+```txt
+Receita R$48.750
+Despesa R$23.180
+Lucro R$25.570
+Margem 52,4%
+```
+
+Corpo:
+
+ESQUERDA:
+
+```txt
+Fluxo Caixa
+gráfico barras
+```
+
+DIREITA:
+
+```txt
+Despesas por categoria
+donut
+```
+
+Tabela:
+
+```txt
+Cliente
+Pedido
+Valor
+Dias
+Status
+```
+
+---
+
+# TELA 04 — ANALISTA DE CADASTRO
+
+Título:
+
+```txt
+Cadastro de Produtos
+```
+
+Tabs:
+
+```txt
+Produtos
+Matéria-prima
+Fornecedores
+Clientes
+```
+
+Topo:
+
+```txt
+Busca 360
+Filtro categoria
+Filtro fornecedor
+Filtro situação
+```
+
+Botão:
+
+```txt
++ Novo Produto
+```
+
+Tabela:
+
+```txt
+Produto
+Categoria
+Unidade
+Fornecedor
+Preço
+Estoque
+Situação
+Ações
+```
+
+Produtos:
+
+```txt
+Alface
+Tomate
+Banana
+Quinoa
+```
+
+Drawer lateral:
+
+```txt
+Nome
+Categoria
+Fornecedor
+Unidade
+Custo
+Preço sugerido
+Salvar
+```
+
+---
+
+# TELA 05 — VENDAS
+
+Título:
+
+```txt
+Novo Pedido
+```
+
+2 colunas.
+
+ESQUERDA:
+
+```txt
+420 largura
+```
+
+Cliente:
+
+```txt
+Busca
+```
+
+Card:
+
+```txt
+Maria Silva
+Telefone
+Email
+```
+
+Pagamento:
+
+```txt
+Pix
+Cartão
+Dinheiro
+```
+
+Textarea:
+
+```txt
+Observações
+```
+
+DIREITA:
+
+Tabela:
+
+```txt
+Produto
+Qtd
+Preço
+Subtotal
+```
+
+Botão:
+
+```txt
+Adicionar Produto
+```
+
+Resumo:
+
+```txt
+Subtotal
+Desconto
+Total R$29,25
+```
+
+Botão:
+
+```txt
+Finalizar Pedido
+```
+
+Badge:
+
+```txt
+Pendente de Pagamento
+```
+
+---
+
+# TELA 06 — ESTOQUE
+
+Título:
+
+```txt
+Estoque
+```
+
+Tabs:
+
+```txt
+Estoque Atual
+Movimentações
+Entradas
+Saídas
+```
+
+Filtros:
+
+```txt
+Busca
+Categoria
+Situação
+```
+
+Tabela:
+
+```txt
+Produto
+Categoria
+Unidade
+Quantidade
+Validade
+Status
+```
+
+Dados:
+
+```txt
+Alface → OK
+Tomate → ALERTA
+Leite vegetal → ALERTA
+Pão integral → VENCIDO
+```
+
+Status:
+
+```txt
+verde
+laranja
+vermelho
+```
+
+Botão:
+
+```txt
++ Movimentação
+```
+
+Drawer:
+
+```txt
+Entrada
+Saída
+Produto
+Quantidade
+Fornecedor
+Data
+Salvar
+```
+
+Rodapé:
+
+```txt
+Histórico recente
+```
+
+---
+
+# PROTOTIPAÇÃO
+
+Criar fluxo:
+
+```txt
+Login
+→ Dashboard
+
+Dashboard
+→ Financeiro
+
+Dashboard
+→ Cadastro
+
+Dashboard
+→ Vendas
+
+Dashboard
+→ Estoque
+```
+
+Usar transições suaves.
+
+Resultado final:
+**parecer exatamente um sistema ERP real, consistente, pronto para exportação para HTML/CSS/React e fiel à identidade visual da Shizen Orgânicos.**

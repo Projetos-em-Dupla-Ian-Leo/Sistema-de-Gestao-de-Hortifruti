@@ -1,0 +1,456 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* ========== TEMA ESCURO - NEUTRO / PROFISSIONAL ========== */
+/* Paleta: Cinzas e Azul naval - sem verde */
+
+/* ========== TEMA ESCURO - SHIZEN ORGÂNICOS ========== */
+/* Mantendo o verde mas em tom mais escuro e elegante */
+
+.dark {
+  --bg-page: #0d1117;
+  --bg-card: #161b22;
+  --bg-sidebar: #0d1117;
+  --bg-hover: #1f252e;
+  --green-primary: #238636;    /* Verde escuro - igual GitHub verde */
+  --green-primary-hover: #2ea043; /* Verde um pouco mais claro no hover */
+  --green-dark: #1b4d22;       /* Verde bem escuro para fundos */
+  --border: #30363d;
+  --text-primary: #f0f6fc;
+  --text-secondary: #8b949e;
+}
+
+/* Menu item ativo - usando verde escuro */
+.dark aside .bg-\[\#2D5016\] {
+  background-color: #238636 !important;
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+/* Menu item hover - mantém o comportamento */
+.dark aside button:hover:not(.bg-\[\#2D5016\]) {
+  background-color: #1f252e !important;
+  color: #f0f6fc !important;
+}
+
+/* Botão principal - verde escuro */
+.dark button.bg-\[\#2D5016\] {
+  background-color: #238636 !important;
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.dark button.bg-\[\#2D5016\]:hover {
+  background-color: #2ea043 !important;
+}
+
+/* Botão de finalizar pedido (fundo verde escuro com texto branco) */
+.dark .bg-\[\#2D5016\].text-white {
+  background-color: #238636 !important;
+  color: #ffffff !important;
+}
+
+/* Badges verdes */
+.dark .bg-green-100 {
+  background-color: #1b4d22 !important;
+  color: #3fb950 !important;
+}
+
+.dark .bg-green-50 {
+  background-color: #1b4d22 !important;
+  border: none !important;
+}
+
+.dark .bg-green-50 .text-gray-600,
+.dark .bg-green-50 .text-sm {
+  color: #7ee787 !important;
+}
+.dark .bg-green-50 .text-2xl,
+.dark .bg-green-50 .font-bold {
+  color: #3fb950 !important;
+}
+
+.dark .bg-green-100.text-green-700 {
+  background-color: #1b4d22 !important;
+  color: #3fb950 !important;
+}
+
+/* Link verde (se houver) */
+.dark a.text-\[\#2D5016\] {
+  color: #3fb950 !important;
+}
+
+/* Fundo da página */
+.dark,
+.dark body,
+.dark #root,
+.dark .min-h-screen,
+.dark .flex.h-screen,
+.dark .bg-gray-50,
+.dark .bg-gray-100 {
+  background-color: #0d1117 !important;
+}
+
+/* Sidebar */
+.dark aside,
+.dark aside.bg-white {
+  background-color: #0d1117 !important;
+  border-right-color: #21262d !important;
+}
+
+.dark aside h1 {
+  color: #f0f6fc !important;
+}
+
+.dark aside .text-gray-500,
+.dark aside .text-gray-600 {
+  color: #8b949e !important;
+}
+
+/* Menu items - estado normal */
+.dark aside .text-gray-700 {
+  color: #c9d1d9 !important;
+}
+
+/* Menu item ativo - fundo cinza claro, sem verde */
+.dark aside .bg-\[\#2D5016\] {
+  background-color: #1f252e !important;
+  color: #f0f6fc !important;
+  font-weight: 500;
+}
+
+/* Menu item hover */
+.dark aside button:hover:not(.bg-\[\#2D5016\]) {
+  background-color: #1f252e !important;
+  color: #f0f6fc !important;
+}
+
+/* Cards */
+.dark .bg-white,
+.dark .rounded-xl,
+.dark .rounded-lg,
+.dark [class*="bg-white"]:not(button):not(aside) {
+  background-color: #161b22 !important;
+  border-color: #30363d !important;
+}
+
+/* Header */
+.dark header,
+.dark header.bg-white {
+  background-color: #161b22 !important;
+  border-bottom-color: #21262d !important;
+}
+
+/* Textos principais */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark .font-semibold,
+.dark .font-medium,
+.dark .text-gray-800,
+.dark .text-gray-900 {
+  color: #f0f6fc !important;
+}
+
+/* Textos secundários */
+.dark .text-gray-500,
+.dark .text-gray-600,
+.dark .text-gray-400,
+.dark .text-muted-foreground,
+.dark p.text-gray-500,
+.dark span.text-gray-500 {
+  color: #8b949e !important;
+}
+
+/* Inputs */
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #0d1117 !important;
+  border-color: #30363d !important;
+  color: #f0f6fc !important;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #6e7681 !important;
+}
+
+.dark input:focus,
+.dark select:focus,
+.dark textarea:focus {
+  border-color: #58a6ff !important;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(88, 166, 255, 0.2);
+}
+
+/* Tabelas */
+.dark table thead tr {
+  background-color: #0d1117 !important;
+}
+
+.dark table thead th {
+  color: #8b949e !important;
+  border-bottom-color: #30363d !important;
+}
+
+.dark table tbody tr {
+  border-color: #21262d !important;
+}
+
+.dark table tbody tr:hover {
+  background-color: #161b22 !important;
+}
+
+.dark table td,
+.dark table th {
+  color: #f0f6fc !important;
+}
+
+/* Badges */
+.dark .bg-green-100 {
+  background-color: #1a4a3a !important;
+  color: #7ee787 !important;
+}
+
+.dark .bg-yellow-100 {
+  background-color: #4a3a1a !important;
+  color: #e3b341 !important;
+}
+
+.dark .bg-red-100 {
+  background-color: #4a1a1a !important;
+  color: #ff7b72 !important;
+}
+
+.dark .bg-blue-100 {
+  background-color: #1a2a4a !important;
+  color: #58a6ff !important;
+}
+
+.dark .bg-gray-100 {
+  background-color: #21262d !important;
+  color: #8b949e !important;
+}
+
+/* Cards de estatísticas - mantendo cores originais mas suaves no escuro */
+.dark .bg-green-50 {
+  background-color: #1a4a3a !important;
+  border: none !important;
+}
+.dark .bg-blue-50 {
+  background-color: #1a2a4a !important;
+  border: none !important;
+}
+.dark .bg-yellow-50 {
+  background-color: #4a3a1a !important;
+  border: none !important;
+}
+.dark .bg-red-50 {
+  background-color: #4a1a1a !important;
+  border: none !important;
+}
+.dark .bg-purple-50 {
+  background-color: #2a1a4a !important;
+  border: none !important;
+}
+.dark .bg-orange-50 {
+  background-color: #4a2a1a !important;
+  border: none !important;
+}
+
+/* Textos dentro dos cards de estatística */
+.dark .bg-green-50 .text-gray-600,
+.dark .bg-green-50 .text-sm {
+  color: #7ee787 !important;
+}
+.dark .bg-green-50 .text-2xl,
+.dark .bg-green-50 .font-bold {
+  color: #7ee787 !important;
+}
+
+.dark .bg-blue-50 .text-gray-600 {
+  color: #58a6ff !important;
+}
+.dark .bg-blue-50 .text-2xl {
+  color: #58a6ff !important;
+}
+
+.dark .bg-yellow-50 .text-gray-600 {
+  color: #e3b341 !important;
+}
+.dark .bg-yellow-50 .text-2xl {
+  color: #e3b341 !important;
+}
+
+.dark .bg-red-50 .text-gray-600 {
+  color: #ff7b72 !important;
+}
+.dark .bg-red-50 .text-2xl {
+  color: #ff7b72 !important;
+}
+
+/* Botão principal - cinza escuro, sem verde */
+.dark button.bg-\[\#2D5016\] {
+  background-color: #21262d !important;
+  color: #f0f6fc !important;
+  font-weight: 500;
+}
+
+.dark button.bg-\[\#2D5016\]:hover {
+  background-color: #30363d !important;
+}
+
+/* Botão secundário (branco) */
+.dark button.bg-white {
+  background-color: #21262d !important;
+  color: #f0f6fc !important;
+  border: 1px solid #30363d !important;
+}
+
+.dark button.bg-white:hover {
+  background-color: #30363d !important;
+}
+
+/* Botão ghost */
+.dark button[variant="ghost"] {
+  color: #8b949e !important;
+}
+
+.dark button[variant="ghost"]:hover {
+  background-color: #1f252e !important;
+  color: #f0f6fc !important;
+}
+
+/* Botão outline */
+.dark button[variant="outline"] {
+  background-color: transparent !important;
+  border-color: #30363d !important;
+  color: #f0f6fc !important;
+}
+
+.dark button[variant="outline"]:hover {
+  background-color: #1f252e !important;
+  border-color: #58a6ff !important;
+}
+
+/* Tabs */
+.dark .bg-gray-100.rounded-lg {
+  background-color: #21262d !important;
+}
+
+.dark [data-state="active"] {
+  background-color: #1f252e !important;
+  color: #f0f6fc !important;
+}
+
+.dark [data-state="inactive"] {
+  color: #8b949e !important;
+}
+
+.dark [data-state="inactive"]:hover {
+  color: #f0f6fc !important;
+  background-color: #1f252e !important;
+}
+
+/* Links e elementos clicáveis */
+.dark a,
+.dark .cursor-pointer:not(button) {
+  color: #58a6ff !important;
+}
+
+.dark a:hover {
+  color: #79c0ff !important;
+}
+
+/* Badge de status */
+.dark .bg-green-100.text-green-700 {
+  background-color: #1a4a3a !important;
+  color: #7ee787 !important;
+}
+
+.dark .bg-yellow-100.text-yellow-700 {
+  background-color: #4a3a1a !important;
+  color: #e3b341 !important;
+}
+
+.dark .bg-red-100.text-red-700 {
+  background-color: #4a1a1a !important;
+  color: #ff7b72 !important;
+}
+
+.dark .bg-blue-100.text-blue-700 {
+  background-color: #1a2a4a !important;
+  color: #58a6ff !important;
+}
+
+/* Gráficos */
+.dark .recharts-cartesian-grid line {
+  stroke: #21262d !important;
+}
+
+.dark .recharts-text {
+  fill: #8b949e !important;
+}
+
+.dark .recharts-legend-item-text {
+  fill: #8b949e !important;
+}
+
+.dark .recharts-tooltip-cursor {
+  fill: #21262d !important;
+}
+
+.dark .recharts-default-tooltip {
+  background-color: #161b22 !important;
+  border-color: #30363d !important;
+}
+
+/* Scrollbar */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #0d1117;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #58a6ff;
+}
+
+/* Modais e diálogos */
+.dark .fixed.bg-black\/50 {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.dark .bg-white.rounded-xl,
+.dark .bg-white.rounded-lg {
+  background-color: #161b22 !important;
+  border-color: #30363d !important;
+}
+
+/* Select dropdown */
+.dark .bg-popover {
+  background-color: #161b22 !important;
+  border-color: #30363d !important;
+}
+
+.dark [role="option"]:hover {
+  background-color: #1f252e !important;
+}
+
+/* Separadores */
+.dark hr,
+.dark .border-t {
+  border-color: #21262d !important;
+}
